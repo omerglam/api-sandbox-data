@@ -430,6 +430,43 @@
                     }
 					
                 ]
+			},
+			{
+                "text": "TradeService",
+                "id" : "5",
+                "type" : "API",
+                "backColor":"black",
+                "nodes": 
+				[
+                    {
+                        "id" : "1",
+                        "text": "Market Rate register for instrument instance 1",
+                        "backColor":"black",
+                        "data": 
+						{
+							"q": "/om2.exchange.trade/marketRateEvents",
+							"sid": 1, 
+							"d": 
+							{
+								"instrumentInstanceId": "1"
+							}
+						}
+                    },
+					{
+                        "id" : "1",
+                        "text": "Market Rate register for instrument instance 1",
+                        "backColor":"black",
+                        "data": 
+						{
+							"q": "/om2.exchange.trade/marketRateEvents",
+							"sid": 1, 
+							"d": 
+							{
+								"instrumentInstanceId": "2"
+							}
+						}
+                    }
+                ]
 			}
 		]
  }

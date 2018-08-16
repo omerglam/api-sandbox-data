@@ -529,7 +529,7 @@
 				[
                     {
                         "id" : "1",
-                        "text": "Market Rate register for instrument instance 1",
+                        "text": "register on user fills",
                         "backColor":"black",
                         "data": 
 						{

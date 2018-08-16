@@ -519,7 +519,31 @@
 				}
 				
 			]
-		}
+		},
+		{
+                "text": "UserOrderFillService",
+                "id" : "7",
+                "type" : "API",
+                "backColor":"black",
+                "nodes": 
+				[
+                    {
+                        "id" : "1",
+                        "text": "Market Rate register for instrument instance 1",
+                        "backColor":"black",
+                        "data": 
+						{
+							"q": "/om2.exchange.userfill/events",
+							"sid": 1, 
+							"d": 
+							{
+								"userId": "1",
+								"numberOfReturnedFillsOnSubscription": 20
+							}
+						}
+                    }
+                ]
+			}
 			
 			
 		]

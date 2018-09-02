@@ -560,8 +560,30 @@
 						}
                     }
                 ]
+			},
+			{
+                "text": "PositionService",
+                "id" : "8",
+                "type" : "API",
+                "backColor":"black",
+                "nodes": 
+				[
+                    {
+                        "id" : "1",
+                        "text": "Position data for user",
+                        "backColor":"black",
+                        "data": 
+						{
+							"q": "/om2.exchange.position/positionEvents",
+							"sid": 1, 
+							"d": 
+							{
+								"userId": "1"
+							}
+						}
+                    }
+                ]
 			}
-			
 			
 		]
  }

@@ -538,7 +538,7 @@
 			]
 		},
 		{
-                "text": "UserOrderFillService",
+                "text": "UserTradeService",
                 "id" : "7",
                 "type" : "API",
                 "backColor":"black",
@@ -550,7 +550,7 @@
                         "backColor":"black",
                         "data": 
 						{
-							"q": "/om2.exchange.userfill/events",
+							"q": "/om2.exchange.userTrade/orderFilledEvents",
 							"sid": 1, 
 							"d": 
 							{
@@ -558,24 +558,15 @@
 								"numberOfReturnedFillsOnSubscription": 20
 							}
 						}
-                    }
-                ]
-			},
-			{
-                "text": "PositionService",
-                "id" : "8",
-                "type" : "API",
-                "backColor":"black",
-                "nodes": 
-				[
+                    },
                     {
-                        "id" : "1",
-                        "text": "Position data for user",
+                        "id" : "2",
+                        "text": "register on user positions",
                         "backColor":"black",
                         "data": 
 						{
-							"q": "/om2.exchange.position/positionEvents",
-							"sid": 1, 
+							"q": "/om2.exchange.userTrade/positionEvents",
+							"sid": 70, 
 							"d": 
 							{
 								"userId": "1"
@@ -584,7 +575,6 @@
                     }
                 ]
 			}
-			
 		]
  }
 	

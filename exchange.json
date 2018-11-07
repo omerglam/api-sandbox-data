@@ -482,6 +482,21 @@
 								"instrumentInstanceId": "2"
 							}
 						}
+                    },
+                    {
+                        "id" : "1",
+                        "text": "Instance recent fills",
+                        "backColor":"black",
+                        "data": 
+						{
+							"q": "/om2.exchange.trade/orderFillInfo",
+							"sid": 1, 
+							"d": 
+							{
+								"instrumentInstanceId": "1",
+								"numberOfReturnedFillsOnSubscription" : 5
+							}
+						}
                     }
                 ]
 			},
